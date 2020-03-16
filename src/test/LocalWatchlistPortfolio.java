@@ -20,7 +20,7 @@ public class LocalWatchlistPortfolio {
 
     @BeforeClass
     public void LocalWatchlistPortfolioSetup() {
-        driver = Context.getIPhoneDriver(Devices.SHEEP.type, Devices.SHEEP.udid);
+        driver = Context.getOnePlusDriver(Devices.GOAT.type, Devices.GOAT.udid);
 
         portfolio = new Portfolio().getPageObject(driver);
     }

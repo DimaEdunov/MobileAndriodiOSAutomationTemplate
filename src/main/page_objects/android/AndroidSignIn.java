@@ -22,7 +22,7 @@ public class AndroidSignIn implements MobileSignIn {
     @Override
     public void signIn(Users.User user) {
         sideMenu.open();
-        driver.findElement(Elements.ANDROID_SIDEMENU_SIGNIN_BUTTON).click();
+        driver.findElement(Elements.ANDROID_MORE_MENU_SIGNIN_BUTTON).click();
 
         WebDriverWait waitForSignInFields = new WebDriverWait(driver, 10);
         waitForSignInFields.until(
@@ -41,7 +41,7 @@ public class AndroidSignIn implements MobileSignIn {
     @Override
     public void signOut() {
         sideMenu.open();
-        sideMenu.clickOnItem(MobileMenu.SideMenuItems.SIGNOUT);
+        sideMenu.clickOnItem(MobileMenu.MenuItems.SIGNOUT);
 
         driver.findElement(Elements.ANDROID_SIGN_OUT_CONFIRM).click();
     }

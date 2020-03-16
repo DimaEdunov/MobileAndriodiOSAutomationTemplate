@@ -38,7 +38,7 @@ public class IOSSignIn implements MobileSignIn {
     @Override
     public void signOut() {
         sideMenu.open();
-        sideMenu.clickOnItem(MobileMenu.SideMenuItems.SIGNOUT);
+        sideMenu.clickOnItem(MobileMenu.MenuItems.SIGNOUT);
 
         driver.findElement(Elements.IOS_SIGN_OUT_CONFIRM).click();
     }
