@@ -1,4 +1,4 @@
-# Animal Farm
+
 Welcome to the mobile automation project of the QA team at investing.com!
 Our project wraps Appium (mobile automation tool based on Selenium) in order to provide an infrastructure that is used to build and run automated tests on the mobile applications of Investing.com on both iOS and Android physical devices.
 
