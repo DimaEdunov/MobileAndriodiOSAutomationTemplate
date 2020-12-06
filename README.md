@@ -2,7 +2,7 @@
 Welcome to the mobile automation project of the QA team at investing.com!
 Our project wraps Appium (mobile automation tool based on Selenium) in order to provide an infrastructure that is used to build and run automated tests on the mobile applications of Investing.com on both iOS and Android physical devices.
 
-![bullandbear](https://ci6.googleusercontent.com/proxy/NWLx6M5mGr5IqQaRGOqkhNwgkXcBXu91ZhhBWfTjW-Us14Hnmao828tS4Gc-MhLisIVluYBAoIxvPXRP7z_Oay7KEGtV=s0-d-e1-ft#https://i-invdn-com.akamaized.net/inv_sig_logo.jpg)![appiumlogo](https://www.indiumsoft.com/Blog/wp-content/uploads/2017/09/appium-logo.png)
+![appiumlogo](https://www.indiumsoft.com/Blog/wp-content/uploads/2017/09/appium-logo.png)
 
 ## Installation
 The project works best in IntelliJ.
